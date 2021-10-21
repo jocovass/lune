@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="31" height="31" version="1.1" viewBox="0 0 8.2021 8.2021" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient id="radialGradient7645" cx="53.945" cy="118.13" r="79.375" gradientTransform="matrix(-.038778 1.0446 -1.0243 -.038025 132.09 -45.433)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#7ef5b4" offset="0"/>
+   <stop stop-color="#73decf" offset=".29397"/>
+   <stop stop-color="#6fd5db" offset=".44984"/>
+   <stop stop-color="#e96ccc" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g transform="matrix(.1 0 0 .1 -.077712 -.068924)">
+  <path d="m81.43 41.682a39.688 39.688 0 0 1-39.688 39.688 39.688 39.688 0 0 1-39.687-39.688 39.688 39.688 0 0 1 39.687-39.687 39.688 39.688 0 0 1 39.688 39.687z" fill="url(#radialGradient7645)" stroke-width="0"/>
+  <g fill="#6fd5db" stroke="#000" stroke-width=".26458">
+   <circle cx="49.055" cy="191.59" r="0"/>
+   <circle cx="49.055" cy="191.59" r="0"/>
+   <circle cx="45.353" cy="183.72" r="0"/>
+   <circle cx="45.353" cy="183.72" r="0"/>
+   <circle cx="89.178" cy="131.19" r="0"/>
+   <circle cx="89.178" cy="131.19" r="0"/>
+   <circle cx="46.483" cy="102.26" r="0"/>
+   <circle cx="46.483" cy="102.26" r="0"/>
+   <circle cx="81.948" cy="93.655" r="0"/>
+  </g>
+  <g fill="#fff" stroke="#000" stroke-width=".26458">
+   <circle cx="65.076" cy="157.01" r="0"/>
+   <circle cx="65.076" cy="157.01" r="0"/>
+   <circle cx="79.882" cy="139.1" r="0"/>
+   <circle cx="79.882" cy="139.1" r="0"/>
+  </g>
+  <g opacity=".5">
+   <path d="m71.369 23.623-1.3965-6.2301-7.0192-0.29202" fill="none" opacity="1" stroke="#fff" stroke-width="1.5875"/>
+   <path d="m68.94 17.006c-6.8978 9.7676-13.796 19.535-20.693 29.303-2.277-5.43-4.554-10.86-6.8311-16.29-4.7487 9.5553-9.4974 19.111-14.246 28.666-3.1032-5.1341-6.2064-10.268-9.3096-15.402l-11.901 14.831c0.76188 0.80008-0.53195 1.2958 0 0l11.718-12.065 9.6289 15.931c4.6628-9.3825 9.3255-18.765 13.988-28.147 2.1989 5.2445 4.3978 10.489 6.5967 15.733 7.4489-10.548 14.898-21.095 22.347-31.643-0.43229-0.30534-0.86458-0.61068-1.2969-0.91602z" color="#000000" fill="#fff" opacity="1" stroke-width=".5" style="-inkscape-stroke:none"/>
+  </g>
+ </g>
+</svg>
