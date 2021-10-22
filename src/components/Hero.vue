@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <section class="hero">
     <div class="content">
       <div class="col-1">
         <h1>Start Building Your Wealth</h1>
@@ -18,7 +18,7 @@
         style="position: absolute"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -29,10 +29,8 @@ export default {};
 .hero {
   height: 80vh;
   min-height: 600px;
-  background-color: rgba(orangered, 0.4);
   display: flex;
   align-items: center;
-  overflow-x: hidden;
 
   .content {
     display: flex;
@@ -45,12 +43,7 @@ export default {};
 
   h1 {
     font-size: 3.2rem;
-  }
-
-  p {
-    font-weight: 300;
-    letter-spacing: 0.6px;
-    line-height: 1.4;
+    margin-bottom: 0.8rem;
   }
 
   .btn {
@@ -62,7 +55,7 @@ export default {};
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-45%);
   }
 }
 </style>

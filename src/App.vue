@@ -33,6 +33,17 @@ ul {
   list-style: none;
 }
 
+p {
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
 .content {
   width: 95%;
   max-width: 1350px;
