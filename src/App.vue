@@ -2,14 +2,16 @@
   <div id="app">
     <Header />
     <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "App",
-  components: { Header },
+  components: { Header, Footer },
 };
 </script>
 
@@ -50,9 +52,18 @@ h2 {
   margin: 0 auto;
 }
 
+.text-box {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .btn {
   text-decoration: none;
   display: inline-block;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .btn-primary {

@@ -25,9 +25,7 @@ export default {};
 }
 
 .text-box {
-  max-width: 800px;
-  text-align: center;
-  margin: 0 auto 5rem;
+  margin-bottom: 5rem;
 }
 
 img {
