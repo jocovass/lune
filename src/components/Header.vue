@@ -2,15 +2,36 @@
   <header class="header">
     <div class="content">
       <img alt="Vue logo" src="../assets/logo-sm.svg" width="65" />
-      <Navigation />
+      <MobileNav v-if="isMobile" />
+      <DesktopNav v-else />
     </div>
   </header>
 </template>
 
 <script>
-import Navigation from "@/components/Navigation.vue";
+import DesktopNav from "@/components/DesktopNav.vue";
+import MobileNav from "@/components/MobileNav.vue";
 export default {
-  components: { Navigation },
+  components: { DesktopNav, MobileNav },
+  data() {
+    return {
+      isMobile: false,
+    };
+  },
+  created() {
+    this.checkDeviceSize();
+    window.addEventListener("resize", this.checkDeviceSize);
+  },
+  beforeDestroy() {
+    window.removeEventListener("resize", this.checkDeviceSize);
+  },
+  methods: {
+    checkDeviceSize() {
+      window.matchMedia("(min-width: 768px").matches
+        ? (this.isMobile = false)
+        : (this.isMobile = true);
+    },
+  },
 };
 </script>
 
