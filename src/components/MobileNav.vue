@@ -22,8 +22,8 @@ export default {
   components: { NavigationList },
   data() {
     return {
-      isNavigationOpen: true,
-      openNavlist: true,
+      isNavigationOpen: false,
+      openNavlist: false,
     };
   },
   methods: {
@@ -53,6 +53,11 @@ export default {
     color: $white;
     width: 1.5rem;
     height: 1.5rem;
+    transition: color 0.15s ease-out;
+  }
+
+  &:hover svg {
+    color: $pink;
   }
 }
 

@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="content">
-      <img alt="Vue logo" src="../assets/logo-sm.svg" width="65" />
+      <img class="logo" alt="Vue logo" src="../assets/logo-sm.svg" width="65" />
       <MobileNav v-if="isMobile" />
       <DesktopNav v-else />
     </div>
@@ -42,11 +42,16 @@ export default {
   left: 0;
   width: 100%;
   z-index: 10;
+  background-color: rgba($black, 0.5);
 }
 .header .content {
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  width: 45px;
 }
 </style>

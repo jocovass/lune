@@ -1,6 +1,8 @@
 <template>
   <section class="hero">
     <div class="content">
+      <img src="@/assets/images/hero.svg" alt="" width="650" />
+
       <div class="col-1">
         <h1>Start Building Your Wealth</h1>
         <p>
@@ -11,12 +13,6 @@
         </p>
         <a href="/sign-up" class="btn btn-secondary">Get Started</a>
       </div>
-      <img
-        src="@/assets/images/hero.svg"
-        alt=""
-        width="650"
-        style="position: absolute"
-      />
     </div>
   </section>
 </template>
@@ -27,23 +23,20 @@ export default {};
 
 <style lang="scss" scoped>
 .hero {
-  height: 80vh;
-  min-height: 600px;
-  display: flex;
-  align-items: center;
+  // height: 80vh;
+  // min-height: 600px;
+  // display: flex;
+  // align-items: center;
 
   .content {
-    display: flex;
+    // display: flex;
     position: relative;
   }
 
   .col-1 {
-    flex-basis: 45%;
-  }
-
-  h1 {
-    font-size: 3.2rem;
-    margin-bottom: 0.8rem;
+    // flex-basis: 45%;
+    padding-top: 17rem;
+    padding-bottom: 1.2rem;
   }
 
   .btn {
@@ -51,11 +44,14 @@ export default {};
   }
 
   img {
-    width: 950px;
+    width: 400px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-45%);
+    top: 0;
+    left: 0;
+    transform: translate(-12%, -40%);
+    // top: 50%;
+    // left: 50%;
+    // transform: translateY(-45%);
   }
 }
 </style>

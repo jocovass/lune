@@ -2,16 +2,17 @@
   <div id="app">
     <Header />
     <router-view />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
-// import Footer from "@/components/Footer.vue";
+import Footer from "@/components/Footer.vue";
+
 export default {
   name: "App",
-  components: { Header },
+  components: { Header, Footer },
 };
 </script>
 
@@ -37,17 +38,28 @@ ul {
 
 p {
   font-weight: 300;
-  letter-spacing: 0.6px;
-  line-height: 1.4;
+  letter-spacing: 0.4px;
+  // line-height: 1.4;
+  font-size: 0.9rem;
 }
 
-h2 {
-  font-size: 2.5rem;
+h1 {
+  font-size: 1.8rem;
   margin-bottom: 0.8rem;
 }
 
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
 .content {
-  width: 95%;
+  width: 90%;
   max-width: 1350px;
   margin: 0 auto;
 }
@@ -64,6 +76,7 @@ h2 {
   border: none;
   font-family: inherit;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .btn-primary {

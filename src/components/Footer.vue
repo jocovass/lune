@@ -1,19 +1,10 @@
 <template>
   <footer class="footer">
     <div class="content">
-      <div class="col-1-4">
-        <div class="logo">
-          <img
-            src="@/assets/logo-sm.svg"
-            alt="Lune logo"
-            width="45"
-            height="45"
-          />
-          <span>Lune</span>
-        </div>
-        <SocialLinks />
+      <div class="col-1-2">
+        <NewsletterSubscription />
       </div>
-      <div class="col-1-4">
+      <div class="col-1-4 footer-nav">
         <ul class="footer-nav__list">
           <li class="footer-nav__item">
             <a href="/stocks" class="footer-nav__link">Stocks</a>
@@ -26,8 +17,17 @@
           </li>
         </ul>
       </div>
-      <div class="col-1-2">
-        <NewsletterSubscription />
+      <div class="col-1-4 social-links">
+        <div class="logo">
+          <img
+            src="@/assets/logo-sm.svg"
+            alt="Lune logo"
+            width="45"
+            height="45"
+          />
+          <span>Lune</span>
+        </div>
+        <SocialLinks />
       </div>
     </div>
   </footer>
@@ -49,8 +49,8 @@ export default {
 .footer {
   padding: $section-padding 0;
   .content {
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
   }
 }
 
@@ -70,6 +70,7 @@ export default {
 }
 
 .footer-nav {
+  margin-bottom: 3rem;
   &__link {
     color: $white;
     text-decoration: none;

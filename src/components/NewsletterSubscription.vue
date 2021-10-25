@@ -26,19 +26,18 @@ export default {};
   margin-left: auto;
   &-form {
     display: flex;
-  }
-  h4 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   .btn {
-    font-size: 1rem;
+    // font-size: 1rem;
+    white-space: nowrap;
   }
+}
 
-  .form-field {
-    margin-right: 0.7rem;
-  }
+.form-field {
+  margin-right: 0.4rem;
+  // flex-basis: 80%;
 }
 
 .form-label {
@@ -48,12 +47,13 @@ export default {};
   font-size: 1rem;
   font-family: inherit;
   font-weight: 300;
-  padding: 0.4em 1.4em;
+  padding: 0.4em 1em;
   border-radius: 100px;
   color: rgba($white, 0.8);
   background-color: $light-blue;
   border: 1px solid transparent;
   outline: none;
+  width: 100%;
 
   &:focus {
     border-color: rgba($pink, 0.3);

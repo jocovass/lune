@@ -21,11 +21,12 @@ export default {};
 
 <style lang="scss" scoped>
 .news {
-  padding: calc(#{$section-padding} * 2) 0;
+  // padding: calc(#{$section-padding} * 2) 0;
+  padding: $section-padding 0;
 }
 
 .text-box {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 img {
