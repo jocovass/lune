@@ -40,4 +40,18 @@ export default {};
     }
   }
 }
+
+@media only screen and (min-width: "768px") {
+  .nav {
+    &__item {
+      margin-bottom: 0;
+      margin-right: 1rem;
+    }
+
+    .btn {
+      margin-top: 0;
+      margin-left: 2rem;
+    }
+  }
+}
 </style>

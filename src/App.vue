@@ -107,4 +107,35 @@ h4 {
     background-color: $pink;
   }
 }
+
+@media only screen and (min-width: "850px") {
+  p {
+    letter-spacing: 0.6px;
+    line-height: 1.4;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .btn-secondary {
+    padding: 1em 1.2em;
+  }
+}
 </style>

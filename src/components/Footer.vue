@@ -86,4 +86,42 @@ export default {
     }
   }
 }
+
+@media only screen and (min-width: "768px") {
+  .footer {
+    // padding: calc(#{$section-padding} * 2) 0;
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+
+  .social-links {
+    order: 1;
+    flex-basis: 50%;
+  }
+
+  .footer-nav {
+    margin-bottom: 0;
+    order: 2;
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: "850px") {
+  .footer {
+    padding: calc(#{$section-padding} * 2) 0;
+  }
+  .social-links {
+    order: -2;
+    flex-basis: auto;
+  }
+
+  .footer-nav {
+    order: -1;
+    flex-basis: auto;
+  }
+}
 </style>

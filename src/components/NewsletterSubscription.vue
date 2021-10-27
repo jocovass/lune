@@ -30,14 +30,12 @@ export default {};
   }
 
   .btn {
-    // font-size: 1rem;
     white-space: nowrap;
   }
 }
 
 .form-field {
   margin-right: 0.4rem;
-  // flex-basis: 80%;
 }
 
 .form-label {
@@ -57,6 +55,32 @@ export default {};
 
   &:focus {
     border-color: rgba($pink, 0.3);
+  }
+}
+
+@media only screen and (min-width: "768px") {
+  .newsletter {
+    margin-left: auto;
+    &-form {
+      display: flex;
+      margin-bottom: 5rem;
+    }
+  }
+  .form-field {
+    margin-right: 0.6rem;
+    flex-basis: 80%;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: "850px") {
+  .newsletter {
+    &-form {
+      margin-bottom: 0;
+    }
   }
 }
 </style>

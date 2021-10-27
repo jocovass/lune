@@ -23,20 +23,15 @@ export default {};
 
 <style lang="scss" scoped>
 .hero {
-  // height: 80vh;
-  // min-height: 600px;
-  // display: flex;
-  // align-items: center;
-
   .content {
-    // display: flex;
     position: relative;
   }
 
   .col-1 {
-    // flex-basis: 45%;
     padding-top: 17rem;
     padding-bottom: 1.2rem;
+    max-width: 400px;
+    margin: 0 auto;
   }
 
   .btn {
@@ -44,14 +39,56 @@ export default {};
   }
 
   img {
-    width: 400px;
+    width: 90%;
+    min-width: 400px;
+    max-width: 550px;
     position: absolute;
     top: 0;
-    left: 0;
-    transform: translate(-12%, -40%);
-    // top: 50%;
-    // left: 50%;
-    // transform: translateY(-45%);
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+}
+
+@media only screen and (min-width: "500px") {
+  .hero {
+    .col-1 {
+      padding-top: calc(58vw * 0.9);
+    }
+  }
+}
+
+@media only screen and (min-width: "768px") {
+  .hero {
+    height: 80vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+
+    .content {
+      display: flex;
+    }
+
+    .col-1 {
+      max-width: initial;
+      margin: 0;
+      padding-top: 0;
+      flex-basis: 45%;
+    }
+
+    img {
+      max-width: 700px;
+      top: 50%;
+      left: 50%;
+      transform: translate(0%, -50%);
+    }
+  }
+}
+
+@media only screen and (min-width: "1200px") {
+  .hero {
+    img {
+      max-width: 800px;
+    }
   }
 }
 </style>

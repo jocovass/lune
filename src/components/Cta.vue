@@ -16,11 +16,25 @@ export default {};
 <style lang="scss" scoped>
 .cta {
   background-color: $light-black;
-  // padding: calc(#{$section-padding * 2}) 0;
   padding: $section-padding 0;
+
+  .text-box {
+    max-width: 400px;
+  }
 }
 
 .btn {
   margin-top: 1.4rem;
+}
+
+@media only screen and (min-width: "768px") {
+  .cta {
+    padding: calc(#{$section-padding * 2}) 0;
+
+    .text-box {
+      width: 70%;
+      max-width: 800px;
+    }
+  }
 }
 </style>

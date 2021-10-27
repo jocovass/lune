@@ -21,15 +21,38 @@ export default {};
 
 <style lang="scss" scoped>
 .news {
-  // padding: calc(#{$section-padding} * 2) 0;
   padding: $section-padding 0;
+
+  .text-box {
+    margin-bottom: 3rem;
+    max-width: 400px;
+  }
+
+  img {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
-.text-box {
-  margin-bottom: 3rem;
+@media only screen and (min-width: "768px") {
+  .news {
+    padding: calc(#{$section-padding} * 2) 0;
+
+    .text-box {
+      margin-bottom: 5rem;
+      width: 70%;
+      max-width: 800px;
+    }
+  }
 }
 
-img {
-  width: 100%;
+@media only screen and (min-width: "1200px") {
+  .news {
+    .text-box {
+      margin-bottom: 7rem;
+    }
+  }
 }
 </style>
