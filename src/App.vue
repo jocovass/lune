@@ -27,9 +27,9 @@ export default {
 
 body {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
   background-color: $black;
   color: $white;
+  font-family: "Merriweather", serif;
 }
 
 ul {
@@ -37,10 +37,10 @@ ul {
 }
 
 p {
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   letter-spacing: 0.4px;
-  // line-height: 1.4;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 h1 {
@@ -108,25 +108,25 @@ h4 {
   }
 }
 
-@media only screen and (min-width: "850px") {
+@media only screen and (min-width: "768px") {
   p {
     letter-spacing: 0.6px;
     line-height: 1.4;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   h1 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     margin-bottom: 0.8rem;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-bottom: 0.8rem;
   }
 
   h4 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
   }
 
@@ -136,6 +136,20 @@ h4 {
 
   .btn-secondary {
     padding: 1em 1.2em;
+  }
+}
+
+@media only screen and (min-width: "1200px") {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
   }
 }
 </style>

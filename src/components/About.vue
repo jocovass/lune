@@ -27,14 +27,7 @@ export default {};
 <style lang="scss" scoped>
 .about {
   background-color: $light-black;
-  // padding: calc(#{$section-padding} * 2) 0;
   padding: $section-padding 0;
-
-  .content {
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
-  }
 
   .col-1-2 {
     max-width: 400px;

@@ -43,6 +43,10 @@ export default {};
 
 @media only screen and (min-width: "768px") {
   .nav {
+    &__list {
+      display: flex;
+      align-items: center;
+    }
     &__item {
       margin-bottom: 0;
       margin-right: 1rem;

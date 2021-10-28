@@ -13,12 +13,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.nav {
-  &__list {
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

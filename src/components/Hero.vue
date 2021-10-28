@@ -3,8 +3,11 @@
     <div class="content">
       <img src="@/assets/images/hero.svg" alt="" width="650" />
 
-      <div class="col-1">
-        <h1>Start Building Your Wealth</h1>
+      <div class="col-1-2">
+        <h1>
+          Start Building <br />
+          Your Wealth
+        </h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
           rem commodi suscipit eveniet omnis nihil, quam obcaecati optio,
@@ -27,7 +30,7 @@ export default {};
     position: relative;
   }
 
-  .col-1 {
+  .col-1-2 {
     padding-top: 17rem;
     padding-bottom: 1.2rem;
     max-width: 400px;
@@ -51,7 +54,7 @@ export default {};
 
 @media only screen and (min-width: "500px") {
   .hero {
-    .col-1 {
+    .col-1-2 {
       padding-top: calc(58vw * 0.9);
     }
   }
@@ -68,7 +71,7 @@ export default {};
       display: flex;
     }
 
-    .col-1 {
+    .col-1-2 {
       max-width: initial;
       margin: 0;
       padding-top: 0;

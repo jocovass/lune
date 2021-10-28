@@ -48,10 +48,6 @@ export default {
 <style lang="scss" scoped>
 .footer {
   padding: $section-padding 0;
-  .content {
-    // display: flex;
-    // justify-content: space-between;
-  }
 }
 
 .logo {
@@ -89,8 +85,6 @@ export default {
 
 @media only screen and (min-width: "768px") {
   .footer {
-    // padding: calc(#{$section-padding} * 2) 0;
-
     .content {
       display: flex;
       justify-content: space-between;
